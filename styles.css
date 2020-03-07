@@ -1,0 +1,33 @@
+.container,
+body{
+    height: 100vh;
+    width: 100%;
+    background: green;
+}
+
+
+
+.card{
+    height: 80%;
+    background: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 8%;
+    margin-left: 412px;
+    margin-top: 80px;
+}
+
+.bodyOfCard{
+    text-align: center;
+    font-size: 5rem;
+}
+
+div.FootOfCard{
+    float: right;
+    margin-left: 100px;
+}
+
+.icon {
+    height: 100px;
+    margin-left: 14px;
+    font-size: 3rem;
+}
