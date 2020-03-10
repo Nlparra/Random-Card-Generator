@@ -5,29 +5,40 @@ body{
     background: green;
 }
 
+.header {
+    display: flex;
+    height: 100px;
+}
 
 
 .card{
-    height: 80%;
     background: rgb(255, 255, 255);
-    width: 30%;
+    width: 350px;
     border-radius: 8%;
-    margin-left: 412px;
-    margin-top: 80px;
+    border: 5px black solid;
+    margin: 0 auto;
 }
 
 .bodyOfCard{
     text-align: center;
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
-div.FootOfCard{
-    float: right;
-    margin-left: 100px;
-}
 
 .icon {
     height: 100px;
-    margin-left: 14px;
-    font-size: 3rem;
+    margin-left: 30px;
+    font-size: 5rem;
+    display: flex;
+    margin-top: 20px;
+}
+
+#left {
+    display: inline;
+    margin-left: 273px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
 }
